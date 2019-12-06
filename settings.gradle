@@ -1,0 +1,2 @@
+include ':app', ':file-download-lib', ':logger-lib'
+rootProject.name='AndroidCommon'
