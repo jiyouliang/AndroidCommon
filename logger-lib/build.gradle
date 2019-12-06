@@ -1,5 +1,5 @@
-apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 29
@@ -30,12 +30,13 @@ dependencies {
 }
 
 publish {
+    repoName = 'maven'
     userOrg = 'jeyoungliang'
-    groupId = 'com.jiyouliang'
+    groupId = 'com.jiyouliang.log'
     artifactId = 'logger-lib'
-    publishVersion = '0.5.0'
-    desc = 'Android logger util'
-    website = 'https://github.com/jiyouliang/AndroidCommon/'
+    publishVersion = '0.6.1'
+    desc = 'Android common library'
 }
+
 
 
