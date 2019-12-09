@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -34,9 +34,12 @@ publish {
     userOrg = 'jeyoungliang'
     groupId = 'com.jiyouliang.log'
     artifactId = 'logger-lib'
-    publishVersion = '0.6.1'
+    publishVersion = '0.9.0'
     desc = 'Android common library'
+    website = "https://github.com/jiyouliang/AndroidCommon/tree/master/logger-lib"
 }
+
+
 
 
 

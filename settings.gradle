@@ -1,2 +1,2 @@
-include ':app', ':file-download-lib', ':logger-lib'
+include ':app', ':file-download-lib', ':logger-lib', ':test-logger-lib'
 rootProject.name='AndroidCommon'
